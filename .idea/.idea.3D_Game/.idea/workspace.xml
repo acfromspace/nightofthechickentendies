@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="381a1b80-8111-48b8-9c6e-6502d5d6f778" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scenes/Test.unity" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.3D_Game/.idea/contentModel.xml" afterPath="$PROJECT_DIR$/.idea/.idea.3D_Game/.idea/contentModel.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.3D_Game/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.3D_Game/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Prototype/Scenes/Test.unity" afterPath="$PROJECT_DIR$/Assets/Prototype/Scenes/Test.unity" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,7 +15,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="proto_PlayerController.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="proto_PlayerController.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Prototype/Scripts/proto_PlayerController.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="315">
@@ -28,18 +30,35 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="proto_CameraController.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Prototype/Scripts/proto_CameraController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="15" column="61" lean-forward="false" selection-start-line="15" selection-start-column="61" selection-end-line="15" selection-end-column="61" />
+              <folding>
+                <marker date="1512532585798" expanded="false" signature="6:78" ph="..." />
+                <marker date="1512532585798" expanded="true" signature="131:469" ph="{...}" />
+                <marker date="1512532585798" expanded="true" signature="276:340" ph="{...}" />
+                <marker date="1512532585798" expanded="true" signature="394:467" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Prototype/Scripts/proto_CameraController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Prototype/Scripts/proto_PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Prototype/Scripts/proto_PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Prototype/Scripts/proto_CameraController.cs" />
       </list>
     </option>
   </component>
@@ -113,12 +132,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1512531519871</updated>
-      <workItem from="1512531523798" duration="488000" />
+      <workItem from="1512531523798" duration="925000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="488000" />
+    <option name="totallyTimeSpent" value="925000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -175,6 +194,19 @@
             <marker date="1512532072352" expanded="true" signature="131:541" ph="{...}" />
             <marker date="1512532072352" expanded="true" signature="217:274" ph="{...}" />
             <marker date="1512532072352" expanded="true" signature="297:539" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Prototype/Scripts/proto_CameraController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="15" column="61" lean-forward="false" selection-start-line="15" selection-start-column="61" selection-end-line="15" selection-end-column="61" />
+          <folding>
+            <marker date="1512532585798" expanded="false" signature="6:78" ph="..." />
+            <marker date="1512532585798" expanded="true" signature="131:469" ph="{...}" />
+            <marker date="1512532585798" expanded="true" signature="276:340" ph="{...}" />
+            <marker date="1512532585798" expanded="true" signature="394:467" ph="{...}" />
           </folding>
         </state>
       </provider>
