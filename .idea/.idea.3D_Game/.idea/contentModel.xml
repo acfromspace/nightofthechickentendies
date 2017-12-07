@@ -213,6 +213,7 @@
         <e p="Prototype" t="Include">
           <e p="Scripts" t="Include">
             <e p="proto_CameraController.cs" t="Include" />
+            <e p="proto_FireballPower.cs" t="Include" />
             <e p="proto_PlayerController.cs" t="Include" />
           </e>
         </e>
