@@ -15,7 +15,7 @@ public class proto_FireballPower : MonoBehaviour
 	
 	// Use this for initialization
 	void Start () {
-		
+
 	}
 	
 	// Update is called once per frame
@@ -31,5 +31,6 @@ public class proto_FireballPower : MonoBehaviour
 	{
 		var fireballInstance = (GameObject) Instantiate(_fireball, _spawnPoint.position + offset, _spawnPoint.rotation);
 		fireballInstance.GetComponent<Rigidbody>().velocity = (_spawnPoint.transform.forward * this._fireballSpeed); 
+		Object.Destroy(fireballInstance, 2.0f);
 	}
 }
