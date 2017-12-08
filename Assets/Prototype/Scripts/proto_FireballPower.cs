@@ -10,6 +10,8 @@ public class proto_FireballPower : MonoBehaviour
 	public float _fireballSpeed;
 
 	public Transform _spawnPoint;
+
+	public Vector3 offset;
 	
 	// Use this for initialization
 	void Start () {
@@ -27,7 +29,7 @@ public class proto_FireballPower : MonoBehaviour
 
 	void Fire()
 	{
-		var fireballInstance = (GameObject) Instantiate(_fireball, _spawnPoint.position, _spawnPoint.rotation);
+		var fireballInstance = (GameObject) Instantiate(_fireball, _spawnPoint.position + offset, _spawnPoint.rotation);
 		fireballInstance.GetComponent<Rigidbody>().velocity = (_spawnPoint.transform.forward * this._fireballSpeed); 
 	}
 }

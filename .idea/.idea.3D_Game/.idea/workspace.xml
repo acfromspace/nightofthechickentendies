@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="381a1b80-8111-48b8-9c6e-6502d5d6f778" name="Default" comment="" />
+    <list default="true" id="381a1b80-8111-48b8-9c6e-6502d5d6f778" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scenes.meta" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.3D_Game/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.3D_Game/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Prototype/Prefabs/proto_fireball.prefab" afterPath="$PROJECT_DIR$/Assets/Prototype/Prefabs/proto_fireball.prefab" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Prototype/Scenes/ProjectileRoom.unity" afterPath="$PROJECT_DIR$/Assets/Prototype/Scenes/ProjectileRoom.unity" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Prototype/Scripts/proto_FireballPower.cs" afterPath="$PROJECT_DIR$/Assets/Prototype/Scripts/proto_FireballPower.cs" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,15 +50,15 @@
       <file leaf-file-name="proto_FireballPower.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Prototype/Scripts/proto_FireballPower.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="27" column="15" lean-forward="false" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
+            <state relative-caret-position="390">
+              <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
               <folding>
-                <marker date="1512612280311" expanded="false" signature="6:78" ph="..." />
-                <marker date="1512612280311" expanded="true" signature="128:649" ph="{...}" />
-                <marker date="1512612280311" expanded="true" signature="274:281" ph="{...}" />
-                <marker date="1512612280311" expanded="true" signature="336:409" ph="{...}" />
-                <marker date="1512612280311" expanded="true" signature="387:406" ph="{...}" />
-                <marker date="1512612280311" expanded="true" signature="423:647" ph="{...}" />
+                <marker date="1512703720352" expanded="false" signature="6:78" ph="..." />
+                <marker date="1512703720352" expanded="true" signature="128:683" ph="{...}" />
+                <marker date="1512703720352" expanded="true" signature="299:306" ph="{...}" />
+                <marker date="1512703720352" expanded="true" signature="361:434" ph="{...}" />
+                <marker date="1512703720352" expanded="true" signature="412:431" ph="{...}" />
+                <marker date="1512703720352" expanded="true" signature="448:681" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -84,7 +90,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="width" value="1680" />
     <option name="height" value="1050" />
   </component>
@@ -104,6 +110,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="SolutionExplorer">
         <subPane>
           <expand>
@@ -117,7 +124,6 @@
         <option name="show-file-system" value="false" />
         <option name="show-all-items" value="false" />
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -150,11 +156,12 @@
       <updated>1512531519871</updated>
       <workItem from="1512531523798" duration="1832000" />
       <workItem from="1512608190639" duration="1758000" />
+      <workItem from="1512703542643" duration="178000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3590000" />
+    <option name="totallyTimeSpent" value="3768000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -228,6 +235,47 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Prototype/Scripts/proto_FireballPower.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="27" column="15" lean-forward="false" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
+          <folding>
+            <marker date="1512703720352" expanded="false" signature="6:78" ph="..." />
+            <marker date="1512703720352" expanded="true" signature="128:683" ph="{...}" />
+            <marker date="1512703720352" expanded="true" signature="299:306" ph="{...}" />
+            <marker date="1512703720352" expanded="true" signature="361:434" ph="{...}" />
+            <marker date="1512703720352" expanded="true" signature="412:431" ph="{...}" />
+            <marker date="1512703720352" expanded="true" signature="448:681" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Prototype/Scripts/proto_PlayerController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="23" column="59" lean-forward="false" selection-start-line="23" selection-start-column="59" selection-end-line="23" selection-end-column="59" />
+          <folding>
+            <marker date="1512532072352" expanded="false" signature="6:78" ph="..." />
+            <marker date="1512532072352" expanded="true" signature="131:541" ph="{...}" />
+            <marker date="1512532072352" expanded="true" signature="217:274" ph="{...}" />
+            <marker date="1512532072352" expanded="true" signature="297:539" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Prototype/Scripts/proto_CameraController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="15" column="61" lean-forward="false" selection-start-line="15" selection-start-column="61" selection-end-line="15" selection-end-column="61" />
+          <folding>
+            <marker date="1512608211162" expanded="false" signature="6:78" ph="..." />
+            <marker date="1512608211162" expanded="true" signature="131:469" ph="{...}" />
+            <marker date="1512608211162" expanded="true" signature="276:340" ph="{...}" />
+            <marker date="1512608211162" expanded="true" signature="394:467" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts/FirstPersonController.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts/HeadBob.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts/MouseLook.cs" />
@@ -259,15 +307,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Prototype/Scripts/proto_FireballPower.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="27" column="15" lean-forward="false" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
+        <state relative-caret-position="390">
+          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding>
-            <marker date="1512612280311" expanded="false" signature="6:78" ph="..." />
-            <marker date="1512612280311" expanded="true" signature="128:649" ph="{...}" />
-            <marker date="1512612280311" expanded="true" signature="274:281" ph="{...}" />
-            <marker date="1512612280311" expanded="true" signature="336:409" ph="{...}" />
-            <marker date="1512612280311" expanded="true" signature="387:406" ph="{...}" />
-            <marker date="1512612280311" expanded="true" signature="423:647" ph="{...}" />
+            <marker date="1512703720352" expanded="false" signature="6:78" ph="..." />
+            <marker date="1512703720352" expanded="true" signature="128:683" ph="{...}" />
+            <marker date="1512703720352" expanded="true" signature="299:306" ph="{...}" />
+            <marker date="1512703720352" expanded="true" signature="361:434" ph="{...}" />
+            <marker date="1512703720352" expanded="true" signature="412:431" ph="{...}" />
+            <marker date="1512703720352" expanded="true" signature="448:681" ph="{...}" />
           </folding>
         </state>
       </provider>
