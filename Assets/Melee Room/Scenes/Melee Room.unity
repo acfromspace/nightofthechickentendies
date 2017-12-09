@@ -269,7 +269,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 1c20f120a0fcd409e9d4b73b0bda8eb0, type: 2}
+  - {fileID: 2100000, guid: b8649ba00ddd9f3468319050fa93bb4b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -387,48 +387,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
---- !u!1001 &895726621
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4497323351362698, guid: 815d9a465109d4132b5581e49a18b5a3, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4497323351362698, guid: 815d9a465109d4132b5581e49a18b5a3, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4497323351362698, guid: 815d9a465109d4132b5581e49a18b5a3, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4497323351362698, guid: 815d9a465109d4132b5581e49a18b5a3, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4497323351362698, guid: 815d9a465109d4132b5581e49a18b5a3, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4497323351362698, guid: 815d9a465109d4132b5581e49a18b5a3, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4497323351362698, guid: 815d9a465109d4132b5581e49a18b5a3, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4497323351362698, guid: 815d9a465109d4132b5581e49a18b5a3, type: 2}
-      propertyPath: m_RootOrder
-      value: 6
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: 815d9a465109d4132b5581e49a18b5a3, type: 2}
-  m_IsPrefabParent: 0
 --- !u!1 &1005187196
 GameObject:
   m_ObjectHideFlags: 0
@@ -538,12 +496,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 1005187196}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: da6b99110e2784cb8b66f356c6fc7583, type: 3}
+  m_Script: {fileID: 11500000, guid: 5e0ed28bd0a23fa4c997e3f5314861e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _fireball: {fileID: 1588235574}
-  _fireballSpeed: 50
-  _spawnPoint: {fileID: 1197789410}
+  FPS: {fileID: 1197789413}
+  range: 100
+  mask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  damage: 50
 --- !u!54 &1005187199
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -792,9 +753,10 @@ GameObject:
   - component: {fileID: 1399739945}
   - component: {fileID: 1399739944}
   - component: {fileID: 1399739943}
+  - component: {fileID: 1399739948}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -824,7 +786,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 5b889ab156b1dd640acb89cb3c948802, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -873,28 +835,20 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1588235574 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1987016297488522, guid: 815d9a465109d4132b5581e49a18b5a3,
-    type: 2}
-  m_PrefabInternal: {fileID: 895726621}
---- !u!54 &1588235575
-Rigidbody:
+--- !u!114 &1399739948
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1588235574}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_GameObject: {fileID: 1399739942}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd29d66df9886304cbd35df599ad3dbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 100
 --- !u!1001 &1844794925
 Prefab:
   m_ObjectHideFlags: 0
