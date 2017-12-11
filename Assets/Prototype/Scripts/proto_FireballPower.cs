@@ -7,7 +7,7 @@ public class proto_FireballPower : MonoBehaviour
 
 	public GameObject fireballPrefab;
 
-	public float fireballSpeed;
+	public float fireballForce;
 
 	public Transform spawnPoint;
 	
@@ -31,7 +31,7 @@ public class proto_FireballPower : MonoBehaviour
 	void Fire()
 	{
 		var fireballInstance = (GameObject) Instantiate(fireballPrefab, spawnPoint.transform.position, Quaternion.identity);
-		fireballInstance.GetComponent<Rigidbody>().velocity = transform.forward * fireballSpeed; 
-		Object.Destroy(fireballInstance, 2.0f);
+		fireballInstance.GetComponent<Rigidbody>().AddForce(transform.forward * fireballForce);  
+		Object.Destroy(fireballInstance, 10.0f);
 	}
 }
