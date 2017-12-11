@@ -14,11 +14,15 @@ public class MovingPlatformController : MonoBehaviour
 
 	public Vector3 direction = Vector3.forward;
 
+    private float min, max;
+
 
 	// Update is called once per frame
 	public void enableMove()
 	{
 		canMove = true;
+        min = transform.position.z - 30;
+        max = transform.position.z + 30;
 	}
 
 	void Update()
@@ -35,8 +39,12 @@ public class MovingPlatformController : MonoBehaviour
 		while (canMove)
 		{
 			var dir = transform.TransformDirection(direction);
-			transform.position += distanceAmp * dir * Mathf.Sin(6 * speed * Time.time);
-		}
+            //transform.position += distanceAmp * dir * Mathf.Sin(6 * speed * Time.deltaTime);
+            //transform.position += dir * Mathf.PingPong(Time.deltaTime, 6);
+            transform.position = new Vector3(transform.position.x, transform.position.y, Mathf.PingPong(Time.deltaTime * speed, max - min) + min);
+
+            yield return new WaitForSeconds(0.01f);
+        }
 	}
 }
 
