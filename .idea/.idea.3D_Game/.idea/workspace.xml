@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="381a1b80-8111-48b8-9c6e-6502d5d6f778" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.3D_Game/.idea/contentModel.xml" afterPath="$PROJECT_DIR$/.idea/.idea.3D_Game/.idea/contentModel.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.3D_Game/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.3D_Game/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Imported Assets/Unity Standard Assets/Environment/TerrainAssets/SurfaceTextures/GrassHillAlbedo.psd.meta" afterPath="$PROJECT_DIR$/Assets/Imported Assets/Unity Standard Assets/Environment/TerrainAssets/SurfaceTextures/GrassHillAlbedo.psd.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Imported Assets/Unity Standard Assets/PhysicsMaterials/Bouncy.physicmaterial" afterPath="$PROJECT_DIR$/Assets/Imported Assets/Unity Standard Assets/PhysicsMaterials/Bouncy.physicmaterial" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Prototype/Prefabs/Chicken Nugget.prefab" afterPath="$PROJECT_DIR$/Assets/Prototype/Prefabs/Chicken Nugget.prefab" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Prototype/Scenes/ProjectileRoom.unity" afterPath="$PROJECT_DIR$/Assets/Prototype/Scenes/ProjectileRoom.unity" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Prototype/Scripts/proto_FireballPower.cs" afterPath="$PROJECT_DIR$/Assets/Prototype/Scripts/proto_FireballPower.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Prototype/Scripts/HungrySkullController.cs" afterPath="$PROJECT_DIR$/Assets/Prototype/Scripts/HungrySkullController.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -47,7 +48,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="proto_FireballPower.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="proto_FireballPower.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Prototype/Scripts/proto_FireballPower.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="480">
@@ -64,6 +65,39 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="HungrySkullController.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Prototype/Scripts/HungrySkullController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+              <folding>
+                <marker date="1512970342401" expanded="false" signature="6:78" ph="..." />
+                <marker date="1512970342401" expanded="true" signature="130:429" ph="{...}" />
+                <marker date="1512970342401" expanded="true" signature="218:427" ph="{...}" />
+                <marker date="1512970342401" expanded="true" signature="261:395" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MovingPlatformController.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Prototype/Scripts/MovingPlatformController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="555">
+              <caret line="37" column="13" lean-forward="true" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
+              <folding>
+                <marker date="1512970481790" expanded="true" signature="6:92" ph="..." />
+                <marker date="1512970481790" expanded="true" signature="147:685" ph="{...}" />
+                <marker date="1512970481790" expanded="true" signature="343:367" ph="{...}" />
+                <marker date="1512970481790" expanded="true" signature="383:447" ph="{...}" />
+                <marker date="1512970481790" expanded="true" signature="401:444" ph="{...}" />
+                <marker date="1512970481790" expanded="true" signature="476:683" ph="{...}" />
+                <marker date="1512970481790" expanded="true" signature="539:680" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
@@ -71,6 +105,8 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Prototype/Scripts/proto_FireballPower.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Prototype/Scripts/MovingPlatformController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Prototype/Scripts/HungrySkullController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Prototype/Scripts/proto_CameraController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Prototype/Scripts/proto_PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -81,6 +117,8 @@
         <option value="$PROJECT_DIR$/Assets/Prototype/Scripts/proto_CameraController.cs" />
         <option value="$PROJECT_DIR$/Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts/FirstPersonController.cs" />
         <option value="$PROJECT_DIR$/Assets/Prototype/Scripts/proto_FireballPower.cs" />
+        <option value="$PROJECT_DIR$/Assets/Prototype/Scripts/HungrySkullController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Prototype/Scripts/MovingPlatformController.cs" />
       </list>
     </option>
   </component>
@@ -157,12 +195,12 @@
       <workItem from="1512531523798" duration="1832000" />
       <workItem from="1512608190639" duration="1758000" />
       <workItem from="1512703542643" duration="3521000" />
-      <workItem from="1512956859292" duration="1079000" />
+      <workItem from="1512956859292" duration="3155000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8190000" />
+    <option name="totallyTimeSpent" value="10266000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -206,7 +244,23 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Prototype/Scripts/MovingPlatformController.cs</url>
+          <line>36</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/Prototype/Scripts/MovingPlatformController.cs">
+            <startOffsets>
+              <startOffset value="547" />
+            </startOffsets>
+            <endOffsets>
+              <endOffset value="597" />
+            </endOffsets>
+          </properties>
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -358,6 +412,35 @@
             <marker date="1512962768792" expanded="true" signature="337:478" ph="{...}" />
             <marker date="1512962768792" expanded="true" signature="456:475" ph="{...}" />
             <marker date="1512962768792" expanded="true" signature="492:752" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Prototype/Scripts/HungrySkullController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <marker date="1512970342401" expanded="false" signature="6:78" ph="..." />
+            <marker date="1512970342401" expanded="true" signature="130:429" ph="{...}" />
+            <marker date="1512970342401" expanded="true" signature="218:427" ph="{...}" />
+            <marker date="1512970342401" expanded="true" signature="261:395" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Prototype/Scripts/MovingPlatformController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="13" lean-forward="true" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
+          <folding>
+            <marker date="1512970481790" expanded="true" signature="6:92" ph="..." />
+            <marker date="1512970481790" expanded="true" signature="147:685" ph="{...}" />
+            <marker date="1512970481790" expanded="true" signature="343:367" ph="{...}" />
+            <marker date="1512970481790" expanded="true" signature="383:447" ph="{...}" />
+            <marker date="1512970481790" expanded="true" signature="401:444" ph="{...}" />
+            <marker date="1512970481790" expanded="true" signature="476:683" ph="{...}" />
+            <marker date="1512970481790" expanded="true" signature="539:680" ph="{...}" />
           </folding>
         </state>
       </provider>

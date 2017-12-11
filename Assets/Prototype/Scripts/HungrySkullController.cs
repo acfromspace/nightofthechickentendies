@@ -2,15 +2,19 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class HungrySkullController : MonoBehaviour {
+public class HungrySkullController : MonoBehaviour
+{
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
+	public GameObject associatedPlatform;
+
+	private void OnTriggerEnter(Collider other)
+	{
+		if (other.gameObject.tag == "tendie")
+		{
+			//close mouth
+			associatedPlatform.GetComponent<MovingPlatformController>().enableMove();
+			Debug.Log("Skull is happy");
+		}
+		Destroy(other.gameObject);
 	}
 }

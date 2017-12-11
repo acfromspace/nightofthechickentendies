@@ -212,6 +212,8 @@
         </e>
         <e p="Prototype" t="Include">
           <e p="Scripts" t="Include">
+            <e p="HungrySkullController.cs" t="Include" />
+            <e p="MovingPlatformController.cs" t="Include" />
             <e p="proto_CameraController.cs" t="Include" />
             <e p="proto_FireballPower.cs" t="Include" />
             <e p="proto_PlayerController.cs" t="Include" />
