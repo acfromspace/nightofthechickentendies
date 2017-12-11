@@ -8,21 +8,25 @@ public class MovingPlatformController : MonoBehaviour
 
 	public Boolean canMove = false;
 
-	public float distanceAmp;
+    public float zStart, zEnd;
 
-	public float speed;
+	private GameObject target = null;
 
-	public Vector3 direction = Vector3.forward;
+	private Vector3 offset;
 
-    private float min, max;
+	private Vector3 min, max;
 
-
+	public float inverseSpeed;
+	
+	private void Start()
+	{
+		min = new Vector3(transform.position.x, transform.position.y, transform.position.z - zStart);
+		max = new Vector3(transform.position.x, transform.position.y, transform.position.z + zEnd);
+	}
 	// Update is called once per frame
 	public void enableMove()
 	{
 		canMove = true;
-        min = transform.position.z - 30;
-        max = transform.position.z + 30;
 	}
 
 	void Update()
@@ -35,16 +39,31 @@ public class MovingPlatformController : MonoBehaviour
 
 	IEnumerator MovePlatform()
 	{
-		yield return new WaitForSeconds(0.01f);
+		yield return new WaitForSeconds(0.02f);
 		while (canMove)
 		{
-			var dir = transform.TransformDirection(direction);
-            //transform.position += distanceAmp * dir * Mathf.Sin(6 * speed * Time.deltaTime);
-            //transform.position += dir * Mathf.PingPong(Time.deltaTime, 6);
-            transform.position = new Vector3(transform.position.x, transform.position.y, Mathf.PingPong(Time.deltaTime * speed, max - min) + min);
-
-            yield return new WaitForSeconds(0.01f);
+			transform.position = Vector3.Lerp(min, max, Mathf.PingPong(Time.time * 1/inverseSpeed, 1));
+            yield return new WaitForSeconds(0.02f);
         }
+	}
+
+	void OnTriggerStay(Collider other)
+	{
+		target = other.gameObject;
+		offset = target.transform.position - transform.position;
+	}
+
+	void OnTriggerExit(Collider other)
+	{
+		target = null;
+	}
+
+	private void LateUpdate()
+	{
+		if (target != null)
+		{
+			target.transform.position = transform.position + offset;
+		}
 	}
 }
 
