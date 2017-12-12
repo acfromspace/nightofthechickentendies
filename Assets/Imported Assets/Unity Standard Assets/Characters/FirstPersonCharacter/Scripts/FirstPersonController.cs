@@ -91,6 +91,10 @@ namespace UnityStandardAssets.Characters.FirstPerson
             m_NextStep = m_StepCycle + .5f;
         }
 
+        public void toggleHeadBob(bool flag) {
+            m_UseHeadBob = flag;
+        }
+
 
         private void FixedUpdate()
         {

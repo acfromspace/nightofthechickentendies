@@ -4,4 +4,16 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Prototype/Scenes/AC.unity
+    guid: e3b7b1a8c502271428e1edb671ec19c2
+  - enabled: 1
+    path: Assets/Prototype/Scenes/AC2.unity
+    guid: 8465f50a234af9e4eafbec617da71388
+  - enabled: 1
+    path: Assets/Prototype/Scenes/ProjectileRoom.unity
+    guid: b3acea29abd5a4b18b1e4f2289b2a153
+  - enabled: 1
+    path: Assets/Prototype/Scenes/Test.unity
+    guid: de260e63fb6c2413190f8103a6df9f57
