@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="381a1b80-8111-48b8-9c6e-6502d5d6f778" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/New Terrain 2.asset" afterPath="$PROJECT_DIR$/Assets/New Terrain 2.asset" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.3D_Game/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.3D_Game/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Prototype/Scenes/ProjectileRoom.unity" afterPath="$PROJECT_DIR$/Assets/Prototype/Scenes/ProjectileRoom.unity" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Prototype/Scripts/MovingPlatformController.cs" afterPath="$PROJECT_DIR$/Assets/Prototype/Scripts/MovingPlatformController.cs" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -81,7 +78,7 @@
       <file leaf-file-name="MovingPlatformController.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Prototype/Scripts/MovingPlatformController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="497">
+            <state relative-caret-position="543">
               <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
               <folding>
                 <marker date="1512987211777" expanded="true" signature="6:92" ph="..." />
@@ -198,12 +195,12 @@
       <workItem from="1512531523798" duration="1832000" />
       <workItem from="1512608190639" duration="1758000" />
       <workItem from="1512703542643" duration="3521000" />
-      <workItem from="1512956859292" duration="8568000" />
+      <workItem from="1512956859292" duration="8883000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15679000" />
+    <option name="totallyTimeSpent" value="15994000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -420,7 +417,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Prototype/Scripts/MovingPlatformController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="497">
+        <state relative-caret-position="543">
           <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
           <folding>
             <marker date="1512987211777" expanded="true" signature="6:92" ph="..." />
