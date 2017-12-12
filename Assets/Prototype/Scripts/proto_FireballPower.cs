@@ -5,20 +5,23 @@ using UnityEngine;
 public class proto_FireballPower : MonoBehaviour
 {
 
-	public GameObject _fireball;
+	public GameObject fireballPrefab;
 
-	public float _fireballSpeed;
+	public float fireballForce;
 
-	public Transform _spawnPoint;
+	public Transform spawnPoint;
 	
 	// Use this for initialization
 	void Start () {
-		
+
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		//Left Click
+		
+		//Ray
+		Debug.DrawRay(transform.position, transform.forward, Color.green);
+		
 		if (Input.GetMouseButtonDown(0))
 		{
 			Fire();
@@ -27,7 +30,8 @@ public class proto_FireballPower : MonoBehaviour
 
 	void Fire()
 	{
-		var fireballInstance = (GameObject) Instantiate(_fireball, _spawnPoint.position, _spawnPoint.rotation);
-		fireballInstance.GetComponent<Rigidbody>().velocity = (_spawnPoint.transform.forward * this._fireballSpeed); 
+		var fireballInstance = (GameObject) Instantiate(fireballPrefab, spawnPoint.transform.position, Quaternion.identity);
+		fireballInstance.GetComponent<Rigidbody>().AddForce(transform.forward * fireballForce);  
+		Object.Destroy(fireballInstance, 10.0f);
 	}
 }
