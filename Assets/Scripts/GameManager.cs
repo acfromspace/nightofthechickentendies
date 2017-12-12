@@ -63,21 +63,6 @@ public class GameManager : MonoBehaviour {
 	    {
 	        Debug.Log("Stop player from moving");
 	    }
-//        Gun_HUD.SetActive(CurrentPlayerWeapon == PlayerWeaponType.GUN);
-//        Melee_HUD.SetActive(CurrentPlayerWeapon == PlayerWeaponType.MELEE);
-//        Grenade_HUD.SetActive(CurrentPlayerWeapon == PlayerWeaponType.GRENADE);
-//
-//        if (Input.GetKey(KeyCode.Alpha1) && meleeUnlocked)
-//        {
-//            CurrentPlayerWeapon = PlayerWeaponType.MELEE;
-//        }
-//        else if (Input.GetKey(KeyCode.Alpha2))
-//        {
-//            CurrentPlayerWeapon = PlayerWeaponType.GUN;
-//        }
-//        else if(Input.GetKey(KeyCode.Alpha3)){
-//            CurrentPlayerWeapon = PlayerWeaponType.GRENADE;
-//        }
 	}
 
     public void StartGame()
