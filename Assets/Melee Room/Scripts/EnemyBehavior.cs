@@ -32,4 +32,9 @@ public class EnemyBehavior : MonoBehaviour {
     {
         Destroy(this.gameObject);
     }
+
+    void OnCollisonEnter(Collider other)
+    {
+        Destroy(this.gameObject);
+    }
 }
