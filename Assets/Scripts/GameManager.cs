@@ -4,6 +4,9 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour {
+    class PlayerStats {
+        public int numTendies = 0;
+    };
 
     public static GameManager Instance = null;
     
@@ -11,14 +14,6 @@ public class GameManager : MonoBehaviour {
 //    public GameObject Melee_HUD;
 //    public GameObject Grenade_HUD;
 
-    public enum PlayerWeaponType : byte {
-        NONE,
-        MELEE,
-        GRENADE,
-        GUN
-    }
-
-    public PlayerWeaponType CurrentPlayerWeapon;
     public uint Score;
 
     public bool meleeUnlocked { get; private set; }
@@ -28,6 +23,7 @@ public class GameManager : MonoBehaviour {
     
     public string firstSceneName;
     public GameObject PauseMenuCanvas;
+    PlayerStats playerStats = new PlayerStats();
     
     /// <summary>
     /// Initializes the GameManager Instance
@@ -46,11 +42,6 @@ public class GameManager : MonoBehaviour {
     void Start ()
     {
         PauseMenuCanvas.SetActive(pauseMenuToggle);
-//        CurrentPlayerWeapon = PlayerWeaponType.NONE;
-//        meleeUnlocked = true;
-//        gunUnlocked = true;
-//        grenadeUnlocked = true;
-//        Score = 0;
     }
 	
 	// Update is called once per frame
@@ -73,6 +64,16 @@ public class GameManager : MonoBehaviour {
     public void QuitGame()
     {
         Application.Quit();
+    }
+
+    public void LoadPlayerInfo(ref int numTendies)
+    {
+        numTendies = playerStats.numTendies;
+    }
+
+    public void SavePlayerInfo(int numTendies)
+    {
+        playerStats.numTendies = numTendies;
     }
 
     public void PauseGame()
