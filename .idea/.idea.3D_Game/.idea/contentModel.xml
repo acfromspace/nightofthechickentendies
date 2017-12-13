@@ -215,6 +215,13 @@
             </e>
           </e>
         </e>
+        <e p="Melee Room" t="Include">
+          <e p="Scripts" t="Include">
+            <e p="EnemyBehavior.cs" t="Include" />
+            <e p="Melee.cs" t="Include" />
+            <e p="Spawner.cs" t="Include" />
+          </e>
+        </e>
         <e p="Plugins" t="Include">
           <e p="Editor" t="Include">
             <e p="JetBrains" t="Include">
@@ -224,6 +231,7 @@
         </e>
         <e p="Prototype" t="Include">
           <e p="Scripts" t="Include">
+            <e p="CreditsController.cs" t="Include" />
             <e p="HungrySkullController.cs" t="Include" />
             <e p="MovingPlatformController.cs" t="Include" />
             <e p="proto_CameraController.cs" t="Include" />
@@ -241,7 +249,9 @@
       <e p="Library" t="ExcludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />
       <e p="packages" t="ExcludeRecursive" />
-      <e p="Temp/bin" t="ExcludeRecursive" />
+      <e p="Temp" t="ExcludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+      </e>
     </e>
     <e p="$USER_HOME$/Library/Caches/Rider2017.2/resharper-host/local/Transient/ReSharperHost/v10/SolutionCaches/_3D_Game.-846398152.00" t="ExcludeRecursive" />
   </component>

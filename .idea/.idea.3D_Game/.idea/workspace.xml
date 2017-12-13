@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="381a1b80-8111-48b8-9c6e-6502d5d6f778" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/Prototype/Models/3D Targets/Realistic Targets.meta" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/Prototype/Scenes/Credits.unity" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/Prototype/Scenes/Credits.unity.meta" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/Scenes.meta" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.3D_Game/.idea/contentModel.xml" afterPath="$PROJECT_DIR$/.idea/.idea.3D_Game/.idea/contentModel.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.3D_Game/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.3D_Game/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Imported Assets/Lava_Flowing_Shader/Materials/mtl_lava_simple.mat" afterPath="$PROJECT_DIR$/Assets/Imported Assets/Lava_Flowing_Shader/Materials/mtl_lava_simple.mat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -102,28 +103,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GameManager.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GameManager.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="855">
+            <state relative-caret-position="945">
               <caret line="63" column="47" lean-forward="false" selection-start-line="63" selection-start-column="47" selection-end-line="63" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CreditsController.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Prototype/Scripts/CreditsController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="9" column="34" lean-forward="false" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
               <folding>
-                <marker date="1513052657406" expanded="true" signature="6:113" ph="..." />
-                <marker date="1513052657406" expanded="true" signature="156:2520" ph="{...}" />
-                <marker date="1513052657406" expanded="true" signature="211:315" ph="/* public GameObject Gun_HUD; ... */" />
-                <marker date="1513052657406" expanded="true" signature="357:422" ph="{...}" />
-                <marker date="1513052657406" expanded="true" signature="781:858" ph="/// Initializes the GameManager Instance ... " />
-                <marker date="1513052657406" expanded="true" signature="883:1071" ph="{...}" />
-                <marker date="1513052657406" expanded="true" signature="963:1065" ph="{...}" />
-                <marker date="1513052657406" expanded="true" signature="1125:1361" ph="{...}" />
-                <marker date="1513052657406" expanded="true" signature="1184:1355" ph="/* CurrentPlayerWeapon = PlayerWeaponType.NONE; ... */" />
-                <marker date="1513052657406" expanded="true" signature="1416:2220" ph="{...}" />
-                <marker date="1513052657406" expanded="true" signature="1458:1494" ph="{...}" />
-                <marker date="1513052657406" expanded="true" signature="1520:1581" ph="{...}" />
-                <marker date="1513052657406" expanded="true" signature="1582:2217" ph="/* Gun_HUD.SetActive(CurrentPlayerWeapon == PlayerWeaponType.GUN); ... */" />
-                <marker date="1513052657406" expanded="true" signature="2249:2309" ph="{...}" />
-                <marker date="1513052657406" expanded="true" signature="2341:2381" ph="{...}" />
-                <marker date="1513052657406" expanded="true" signature="2410:2518" ph="{...}" />
+                <marker date="1513130444169" expanded="false" signature="6:78" ph="..." />
+                <marker date="1513130444169" expanded="true" signature="127:304" ph="{...}" />
+                <marker date="1513130444169" expanded="true" signature="176:211" ph="{...}" />
+                <marker date="1513130444169" expanded="true" signature="235:302" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -137,6 +136,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Prototype/Scripts/proto_FireballPower.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Prototype/Scripts/CreditsController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Prototype/Scripts/MovingPlatformController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Prototype/Scripts/HungrySkullController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Prototype/Scripts/proto_CameraController.cs" root0="FORCE_HIGHLIGHTING" />
@@ -152,6 +152,7 @@
         <option value="$PROJECT_DIR$/Assets/Prototype/Scripts/HungrySkullController.cs" />
         <option value="$PROJECT_DIR$/Assets/Prototype/Scripts/MovingPlatformController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Prototype/Scripts/CreditsController.cs" />
       </list>
     </option>
   </component>
@@ -230,11 +231,12 @@
       <workItem from="1512703542643" duration="3521000" />
       <workItem from="1512956859292" duration="8883000" />
       <workItem from="1513051250391" duration="1097000" />
+      <workItem from="1513130288925" duration="147000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17091000" />
+    <option name="totallyTimeSpent" value="17238000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -284,6 +286,102 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Assets/Prototype/Scripts/proto_PlayerController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="23" column="59" lean-forward="false" selection-start-line="23" selection-start-column="59" selection-end-line="23" selection-end-column="59" />
+          <folding>
+            <marker date="1512532072352" expanded="false" signature="6:78" ph="..." />
+            <marker date="1512532072352" expanded="true" signature="131:541" ph="{...}" />
+            <marker date="1512532072352" expanded="true" signature="217:274" ph="{...}" />
+            <marker date="1512532072352" expanded="true" signature="297:539" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Prototype/Scripts/proto_CameraController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="15" column="61" lean-forward="false" selection-start-line="15" selection-start-column="61" selection-end-line="15" selection-end-column="61" />
+          <folding>
+            <marker date="1512608211162" expanded="false" signature="6:78" ph="..." />
+            <marker date="1512608211162" expanded="true" signature="131:469" ph="{...}" />
+            <marker date="1512608211162" expanded="true" signature="276:340" ph="{...}" />
+            <marker date="1512608211162" expanded="true" signature="394:467" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Prototype/Scripts/proto_FireballPower.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="34" column="43" lean-forward="false" selection-start-line="34" selection-start-column="43" selection-end-line="34" selection-end-column="43" />
+          <folding>
+            <marker date="1513049449461" expanded="false" signature="6:78" ph="..." />
+            <marker date="1513049449461" expanded="true" signature="128:754" ph="{...}" />
+            <marker date="1513049449461" expanded="true" signature="277:282" ph="{...}" />
+            <marker date="1513049449461" expanded="true" signature="337:478" ph="{...}" />
+            <marker date="1513049449461" expanded="true" signature="456:475" ph="{...}" />
+            <marker date="1513049449461" expanded="true" signature="492:752" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Prototype/Scripts/HungrySkullController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <marker date="1513051252753" expanded="false" signature="6:78" ph="..." />
+            <marker date="1513051252753" expanded="true" signature="130:429" ph="{...}" />
+            <marker date="1513051252753" expanded="true" signature="218:427" ph="{...}" />
+            <marker date="1513051252753" expanded="true" signature="261:395" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Prototype/Scripts/MovingPlatformController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <folding>
+            <marker date="1513051252816" expanded="true" signature="6:92" ph="..." />
+            <marker date="1513051252816" expanded="true" signature="147:1293" ph="{...}" />
+            <marker date="1513051252816" expanded="true" signature="358:554" ph="{...}" />
+            <marker date="1513051252816" expanded="true" signature="616:640" ph="{...}" />
+            <marker date="1513051252816" expanded="true" signature="656:720" ph="{...}" />
+            <marker date="1513051252816" expanded="true" signature="674:717" ph="{...}" />
+            <marker date="1513051252816" expanded="true" signature="749:976" ph="{...}" />
+            <marker date="1513051252816" expanded="true" signature="812:973" ph="{...}" />
+            <marker date="1513051252816" expanded="true" signature="1013:1107" ph="{...}" />
+            <marker date="1513051252816" expanded="true" signature="1144:1167" ph="{...}" />
+            <marker date="1513051252816" expanded="true" signature="1195:1291" ph="{...}" />
+            <marker date="1513051252816" expanded="true" signature="1220:1288" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="63" column="47" lean-forward="false" selection-start-line="63" selection-start-column="47" selection-end-line="63" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Prototype/Scripts/CreditsController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" column="34" lean-forward="false" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+          <folding>
+            <marker date="1513130444169" expanded="false" signature="6:78" ph="..." />
+            <marker date="1513130444169" expanded="true" signature="127:304" ph="{...}" />
+            <marker date="1513130444169" expanded="true" signature="176:211" ph="{...}" />
+            <marker date="1513130444169" expanded="true" signature="235:302" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Prototype/Scripts/proto_FireballPower.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
@@ -534,26 +632,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
+        <state relative-caret-position="945">
           <caret line="63" column="47" lean-forward="false" selection-start-line="63" selection-start-column="47" selection-end-line="63" selection-end-column="47" />
-          <folding>
-            <marker date="1513052657406" expanded="true" signature="6:113" ph="..." />
-            <marker date="1513052657406" expanded="true" signature="156:2520" ph="{...}" />
-            <marker date="1513052657406" expanded="true" signature="211:315" ph="/* public GameObject Gun_HUD; ... */" />
-            <marker date="1513052657406" expanded="true" signature="357:422" ph="{...}" />
-            <marker date="1513052657406" expanded="true" signature="781:858" ph="/// Initializes the GameManager Instance ... " />
-            <marker date="1513052657406" expanded="true" signature="883:1071" ph="{...}" />
-            <marker date="1513052657406" expanded="true" signature="963:1065" ph="{...}" />
-            <marker date="1513052657406" expanded="true" signature="1125:1361" ph="{...}" />
-            <marker date="1513052657406" expanded="true" signature="1184:1355" ph="/* CurrentPlayerWeapon = PlayerWeaponType.NONE; ... */" />
-            <marker date="1513052657406" expanded="true" signature="1416:2220" ph="{...}" />
-            <marker date="1513052657406" expanded="true" signature="1458:1494" ph="{...}" />
-            <marker date="1513052657406" expanded="true" signature="1520:1581" ph="{...}" />
-            <marker date="1513052657406" expanded="true" signature="1582:2217" ph="/* Gun_HUD.SetActive(CurrentPlayerWeapon == PlayerWeaponType.GUN); ... */" />
-            <marker date="1513052657406" expanded="true" signature="2249:2309" ph="{...}" />
-            <marker date="1513052657406" expanded="true" signature="2341:2381" ph="{...}" />
-            <marker date="1513052657406" expanded="true" signature="2410:2518" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
