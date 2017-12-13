@@ -1,12 +1,13 @@
 ﻿using System.Collections;
 using UnityEngine;
 
-public class Spawner : MonoBehaviour {
+public class Spawner : MonoBehaviour
+{
 
-    public GameObject enemy;                
-    public float spawnTime = 3f;            
-    public Transform[] spawnPoints;        
-    
+    public GameObject enemy;
+    public float spawnTime = 3f;
+    public Transform[] spawnPoints;
+    public float fireSpeed;
 
     void Start()
     {
@@ -18,6 +19,7 @@ public class Spawner : MonoBehaviour {
     {
         int spawnPointIndex = Random.Range(0, spawnPoints.Length);
 
-        Instantiate(enemy, spawnPoints[spawnPointIndex].position, spawnPoints[spawnPointIndex].rotation);
+        var spawnenemy = (GameObject)Instantiate(enemy, spawnPoints[spawnPointIndex].position, spawnPoints[spawnPointIndex].rotation);
+        enemy.GetComponent<Rigidbody>().velocity = transform.forward * fireSpeed;
     }
 }
