@@ -1,7 +1,5 @@
 fileFormatVersion: 2
 guid: d580e35a5e95c44428775f7b65f1fca2
-timeCreated: 1513131227
-licenseType: Free
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
@@ -74,6 +72,12 @@ ModelImporter:
     2300032: _decent_nugget__MeshPart1
     2300034: _decent_nugget__MeshPart2
     2300036: //RootNode
+    2300038: _decent_nugget_
+    2300040: _decent_nugget__001
+    2300042: _decent_nugget__002
+    2300044: _decent_nugget__003
+    2300046: _decent_nugget__004
+    2300048: _decent_nugget__005
     3300000: _decent_nugget__001_MeshPart0
     3300002: _decent_nugget__001_MeshPart1
     3300004: _decent_nugget__001_MeshPart2
@@ -93,6 +97,12 @@ ModelImporter:
     3300032: _decent_nugget__MeshPart1
     3300034: _decent_nugget__MeshPart2
     3300036: //RootNode
+    3300038: _decent_nugget_
+    3300040: _decent_nugget__001
+    3300042: _decent_nugget__002
+    3300044: _decent_nugget__003
+    3300046: _decent_nugget__004
+    3300048: _decent_nugget__005
     4300000: Cube
     4300002: _decent_nugget__005_MeshPart0
     4300004: _decent_nugget__005_MeshPart1
@@ -112,6 +122,12 @@ ModelImporter:
     4300032: _decent_nugget__MeshPart0
     4300034: _decent_nugget__MeshPart1
     4300036: _decent_nugget__MeshPart2
+    4300038: _decent_nugget__005
+    4300040: _decent_nugget__004
+    4300042: _decent_nugget__003
+    4300044: _decent_nugget__002
+    4300046: _decent_nugget__001
+    4300048: _decent_nugget_
     7400000: Default Take
     9500000: //RootNode
   externalObjects:
@@ -143,6 +159,7 @@ ModelImporter:
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
+    importConstraints: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
@@ -167,6 +184,8 @@ ModelImporter:
     optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
