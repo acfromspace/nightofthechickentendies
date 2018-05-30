@@ -1,41 +1,36 @@
 fileFormatVersion: 2
-guid: 8325cafde2e434c369932705867fdbc7
+guid: dae89134ba62bcc43baf54bb326846ca
+timeCreated: 1513306141
+licenseType: Free
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
-    100000: '"decent_nugget"'
-    100002: '"decent_nugget"_MeshPart0'
-    100004: '"decent_nugget"_MeshPart1'
-    100006: '"decent_nugget"_MeshPart2'
-    100008: //RootNode
-    400000: '"decent_nugget"'
-    400002: '"decent_nugget"_MeshPart0'
-    400004: '"decent_nugget"_MeshPart1'
-    400006: '"decent_nugget"_MeshPart2'
-    400008: //RootNode
-    2300000: '"decent_nugget"_MeshPart0'
-    2300002: '"decent_nugget"_MeshPart1'
-    2300004: '"decent_nugget"_MeshPart2'
-    2300006: '"decent_nugget"'
-    3300000: '"decent_nugget"_MeshPart0'
-    3300002: '"decent_nugget"_MeshPart1'
-    3300004: '"decent_nugget"_MeshPart2'
-    3300006: '"decent_nugget"'
-    4300000: '"decent_nugget"_MeshPart0'
-    4300002: '"decent_nugget"_MeshPart1'
-    4300004: '"decent_nugget"_MeshPart2'
-    4300006: '"decent_nugget"'
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: DefaultMaterial
-    second: {fileID: 2100000, guid: a7096ed0d4ef54d2a92deb193b3bec54, type: 2}
+    100000: Camera
+    100002: Cube
+    100004: Cube.001
+    100006: //RootNode
+    100008: Lamp
+    400000: Camera
+    400002: Cube
+    400004: Cube.001
+    400006: //RootNode
+    400008: Lamp
+    2000000: Camera
+    2100000: Material
+    2100002: Material.001
+    2300000: Cube
+    2300002: Cube.001
+    3300000: Cube
+    3300002: Cube.001
+    4300000: Cube
+    4300002: Cube.001
+    10800000: Lamp
+  externalObjects: {}
   materials:
     importMaterials: 1
     materialName: 0
     materialSearch: 1
-    materialLocation: 0
+    materialLocation: 1
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -49,7 +44,6 @@ ModelImporter:
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
-    importConstraints: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
