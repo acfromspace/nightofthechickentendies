@@ -3,22 +3,22 @@
 <p align="center">
   <img src="./avatar.png" width="60">
 </p>
-<h1 align="center">️sirtet</h1>
+<h1 align="center">️night of the chicken tendies</h1>
 
 <!-- DESCRIPTION -->
 
 <h3 align="center">
-  <span role="img" aria-label="Joystick">🕹️</span>
+  <span role="img" aria-label="Poultry Leg">🍗</span>
 </h3>
 <p align="center">
-  <strong>Your classic game of tetris?</strong><br>
-  Created with <a href="https://unity3d.com/" target="_blank">Unity</a> to create a weird puzzle game.
+  <strong>You find yourself stuck in an oven with chicken tendies...</strong><br>
+  Created with <a href="https://unity3d.com/" target="_blank">Unity</a> to create a 3d platformer game.
 </p>
 
 <!-- INFORMATION (Shields:IO) -->
 
 <p align="center">
-    <a href="https://github.com/acfromspace/sirtet/blob/master/LICENSE">
+    <a href="https://github.com/acfromspace/nightofthechickentendies/blob/master/LICENSE">
         <img src="https://img.shields.io/github/license/mashape/apistatus.svg"
             alt="License: MIT"></a>
     <a href="https://twitter.com/intent/follow?screen_name=acfromspace">
@@ -28,34 +28,33 @@
 
 <!-- FEATURES -->
 
-![sirtetdemo](https://user-images.githubusercontent.com/10361542/45566631-22564e80-b80c-11e8-8d9e-5474309409d8.gif)
+[*night of the chicken tendies*](https://github.com/acfromspace/nightofthechickentendies) is a video game with the following features:
 
-[*sirtet*](https://acfromspace.itch.io/sirtet) is a video game with the following features:
+- **Premise.** You find yourself stuck in the weirdest oven ever...
 
-- **Premise.** Just putting puzzle blocks together, no big deal.
+- **Design Idea.** The team number we were given was "10" and all collaborators of this project happen to have a "D" as the first character of their last name so with those combined we makes "10Ds". We went another step deeper into combining our team name with our game name. "Night of the Chicken 10Ds" or otherwise know as "Night of the Chicken Tendies". We all took different aspects into tackling the project whether it be devops, documentation manager, level designer, and graphics artist.
 
-- **Design Idea.** & then you realize "wow, this distortion is messing the puzzle piece placement up..."
-
-- **Future endeavors.** Every level would have a specific augmentation to the game whether it be on screen, sound, controls, in order to hinder the player. When the player achieves level 10, all previous augmentations are combined and Sans comes to stop you from beating the game.
+- **Future endeavors.** More chicken obviously.
 
 <!-- QUICK INSTALLATION -->
 
 ## <span role="img" aria-label="Sparkles">✨</span> Quick Installation
 
-Go to <a href="https://acfromspace.itch.io/sirtet" target="_blank">https://acfromspace.itch.io/sirtet</a> and download the `.exe` file!
+- Clone the repo `git clone https://github.com/acfromspace/nightofthechickentendies`
+- Change directory `cd nightofthechickentendies`
+- Change directory `cd Game Executable`
+- Activate the `.exe`
 
 <!-- IN-DEPTH GUIDE -->
 
 ## <span role="img" aria-label="Video Game">🎮</span> Controls
 
 ```txt
-Mouse: Use to navigate the menu.
-Left/Right/Down arrow keys: Move puzzle piece Left/Down/Right
-Up arrow key: Rotate piece
-"P": Pause menu (during gameplay)
-Spacebar: Slam piece down towards le ground
+WASD = Movement
+Mouse = Aim
+Left click of mouse = Fire those tendies!
 
-Goal: Achieve a high score!
+Goal: Reach the doors to beat the level!
 ```
 
 <!-- WHAT'S INSIDE? -->
@@ -67,23 +66,19 @@ A quick look at the top-level files and directories you'll see in this project.
 ```
   .
 1 ├── Development Area/
-2 ├── Game Documentation/
-3 ├── Game Executable/
-4 ├── Game Screenshots/
-5 ├── .gitignore
-6 ├── avatar.png
-7 ├── LICENSE   
-8 └── README.md
+2 ├── Game Executable/
+3 ├── .gitignore
+4 ├── avatar.png
+5 ├── LICENSE   
+6 └── README.md
 ```
 
 1.  **`Development Area/`**: Unity project files.
-2.  **`Game Documentation/`**: Game Design Document (GDD).
-3.  **`Game Executable/`**: The droids you're looking for are here.
-4.  **`Game Screenshots/`**: Screenshots that showcase the video game.
-5.  **`.gitignore`**: This file tells `.git` which files it should not track nor maintain a version history for. For instance, you shouldn't let anyone get your `.env` files. (These usually contain your API keys)
-6.  **`avatar.png`**: Image used in the README.md.
-7.  **`LICENSE`**: An open source license that protects contributors and users depending on the license chosen.
-8.  **`README.md`**: A markdown file containing useful reference information about your project. The file you're reading right now!
+2.  **`Game Executable/`**: The droids you're looking for are here.
+3.  **`.gitignore`**: This file tells `.git` which files it should not track nor maintain a version history for. For instance, you shouldn't let anyone get your `.env` files. (These usually contain your API keys)
+4.  **`avatar.png`**: Image used in the README.md.
+5.  **`LICENSE`**: An open source license that protects contributors and users depending on the license chosen.
+6.  **`README.md`**: A markdown file containing useful reference information about your project. The file you're reading right now!
 
 <!-- LICENSE -->
 
