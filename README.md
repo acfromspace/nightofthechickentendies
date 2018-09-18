@@ -82,6 +82,15 @@ A quick look at the top-level files and directories you'll see in this project.
 5.  **`LICENSE`**: An open source license that protects contributors and users depending on the license chosen.
 6.  **`README.md`**: A markdown file containing useful reference information about your project. The file you're reading right now!
 
+<!-- CONTRIBUTORS -->
+
+## <span role="img" aria-label="Globe With Meridians">🌐</span> Contributors
+
+- @KevinDo
+- @NathanDanque
+- @XiandraDesquitado
+- @acfromspace
+
 <!-- LICENSE -->
 
 ## <span role="img" aria-label="Oncoming Police Car">🚔</span> [License](LICENSE)
