@@ -12,7 +12,7 @@
 </h3>
 <p align="center">
   <strong>You find yourself stuck in an oven with chicken tendies...</strong><br>
-  Created with <a href="https://unity3d.com/" target="_blank">Unity</a> to create a 3d platformer game.
+  Created with <a href="https://unity3d.com/" target="_blank">Unity</a> to create a 3D platformer game.
 </p>
 
 <!-- INFORMATION (Shields:IO) -->
