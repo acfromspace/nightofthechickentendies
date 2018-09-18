@@ -1,8 +1,5 @@
 <!-- HEADING -->
 
-<p align="center">
-  <img src="./avatar.png" width="60">
-</p>
 <h1 align="center">️night of the chicken tendies</h1>
 
 <!-- DESCRIPTION -->
