@@ -66,17 +66,15 @@ A quick look at the top-level files and directories you'll see in this project.
 1 ├── Development Area/
 2 ├── Game Executable/
 3 ├── .gitignore
-4 ├── avatar.png
-5 ├── LICENSE   
-6 └── README.md
+4 ├── LICENSE   
+5 └── README.md
 ```
 
 1.  **`Development Area/`**: Unity project files.
 2.  **`Game Executable/`**: The droids you're looking for are here.
 3.  **`.gitignore`**: This file tells `.git` which files it should not track nor maintain a version history for. For instance, you shouldn't let anyone get your `.env` files. (These usually contain your API keys)
-4.  **`avatar.png`**: Image used in the README.md.
-5.  **`LICENSE`**: An open source license that protects contributors and users depending on the license chosen.
-6.  **`README.md`**: A markdown file containing useful reference information about your project. The file you're reading right now!
+4.  **`LICENSE`**: An open source license that protects contributors and users depending on the license chosen.
+5.  **`README.md`**: A markdown file containing useful reference information about your project. The file you're reading right now!
 
 <!-- CONTRIBUTORS -->
 
