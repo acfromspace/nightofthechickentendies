@@ -28,7 +28,7 @@
   <img src="https://user-images.githubusercontent.com/10361542/45667904-c15e9d00-bacf-11e8-8d1b-e7ff7ed05de8.gif">
 </p>
 
-[_night of the chicken tendies_](https://github.com/acfromspace/nightofthechickentendies) is a video game with the following features:
+_night of the chicken tendies_ is a video game with the following features:
 
 - **Premise.** You find yourself stuck in the weirdest oven ever...
 
