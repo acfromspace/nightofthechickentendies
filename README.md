@@ -24,24 +24,28 @@
 
 <!-- FEATURES -->
 
-![nightofthechickentendiesDEMO](https://user-images.githubusercontent.com/10361542/45667904-c15e9d00-bacf-11e8-8d1b-e7ff7ed05de8.gif)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/10361542/45667904-c15e9d00-bacf-11e8-8d1b-e7ff7ed05de8.gif">
+</p>
 
-[*night of the chicken tendies*](https://github.com/acfromspace/nightofthechickentendies) is a video game with the following features:
+[_night of the chicken tendies_](https://github.com/acfromspace/nightofthechickentendies) is a video game with the following features:
 
 - **Premise.** You find yourself stuck in the weirdest oven ever...
 
 - **Design Idea.** The team number we were given was "10" and all collaborators of this project happen to have a "D" as the first character of their last name so with those combined we makes "10Ds". We went another step deeper into combining our team name with our game name. "Night of the Chicken 10Ds" or otherwise know as "Night of the Chicken Tendies". We all took different aspects into tackling the project whether it be devops, documentation manager, level designer, and graphics artist.
 
-- **Future endeavors.** More chicken obviously.
+- **Potential endeavors.** More chicken obviously.
 
 <!-- QUICK INSTALLATION -->
 
 ## <span role="img" aria-label="Sparkles">✨</span> Quick Installation
 
-- Clone the repo `git clone https://github.com/acfromspace/nightofthechickentendies`
-- Change directory `cd nightofthechickentendies`
-- Change directory `cd Game Executable`
-- Activate the `.exe`
+```
+git clone https://github.com/acfromspace/nightofthechickentendies
+cd nightofthechickentendies
+cd Game Executable
+"Activate the `.exe`"
+```
 
 <!-- IN-DEPTH GUIDE -->
 
