@@ -32,7 +32,7 @@
 
 - **Premise.** You find yourself stuck in the weirdest oven ever...
 
-- **Design Idea.** The team number we were given was "10" and all collaborators of this project happen to have a "D" as the first character of their last name so with those combined we makes "10Ds". We went another step deeper into combining our team name with our game name. "Night of the Chicken 10Ds" or otherwise know as "Night of the Chicken Tendies". We all took different aspects into tackling the project whether it be devops, documentation manager, level designer, and graphics artist.
+- **Design.** The team number we were given was "10" and all collaborators of this project happen to have a "D" as the first character of their last name so with those combined we makes "10Ds". We went another step deeper into combining our team name with our game name. "Night of the Chicken 10Ds" or otherwise know as "Night of the Chicken Tendies". We all took different aspects into tackling the project whether it be devops, documentation manager, level designer, and graphics artist.
 
 - **Potential endeavors.** More chicken obviously.
 
