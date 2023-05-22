@@ -15,7 +15,7 @@
 <!-- BADGES -->
 
 <p align="center">
-    <a href="https://github.com/acfromspace/nightofthechickentendies/blob/master/LICENSE">
+    <a href="https://github.com/ctrlaltdeleon/nightofthechickentendies/blob/master/LICENSE">
         <img src="https://img.shields.io/github/license/mashape/apistatus.svg"
             alt="License: MIT"></a>
     <a href="https://www.repostatus.org/#unsupported">
@@ -41,7 +41,7 @@ _night of the chicken tendies_ is a video game with the following features:
 ## <span role="img" aria-label="Sparkles">✨</span> Quick Installation
 
 ```
-git clone https://github.com/acfromspace/nightofthechickentendies
+git clone https://github.com/ctrlaltdeleon/nightofthechickentendies
 cd nightofthechickentendies
 cd Game Executable
 "Activate the `.exe`"
@@ -87,7 +87,7 @@ A quick look at the top-level files and directories you'll see in this project.
 - @KevinDo
 - @NathanDanque
 - @XiandraDesquitado
-- @acfromspace
+- @ctrlaltdeleon
 
 <!-- LICENSE -->
 
